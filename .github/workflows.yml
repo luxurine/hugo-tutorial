@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: true
       - name: Publish Site
-        uses: luxurine/hugo-tutorial
+        uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: e7d81bd47e6dc69892bbf4b0cb497927d59bbaa5
-          siteDir: hugo
+          siteDir: /hugo
